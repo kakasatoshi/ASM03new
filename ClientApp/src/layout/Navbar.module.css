@@ -1,0 +1,44 @@
+/* OK */
+/* CSS FOR WHOLE OF NAVBAR COMPONENT */
+.navbar-container * {
+  margin-bottom: 0px;
+}
+
+/* CSS FOR BUTTON */
+.navbar-container button {
+  color: #000;
+  border: none;
+  background: none;
+  font-style: italic;
+}
+
+.logout-btn {
+  margin-left: 20px;
+}
+
+/* CSS FOR ICON */
+.icon {
+  color: #aaa;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* CSS FOR HOME BUTTON */
+.home {
+  color: #e4bd5a !important;
+}
+
+.navbar-container button:hover {
+  color: #230cf0;
+  font-weight: bold;
+}
+
+/* CSS FOR USER NAME */
+.user-name:hover {
+  color: #230cf0;
+  font-weight: bold;
+}
+
+.user-name i:hover {
+  scale: 160%;
+}

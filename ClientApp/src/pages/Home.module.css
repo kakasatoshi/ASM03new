@@ -1,0 +1,161 @@
+/* OK */
+/* CSS FOR WHOLE HOME PAGE */
+.homepage-content p,
+.homepage-content span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homepage-content button {
+  background-color: #383838;
+  border: none;
+}
+
+.homepage-content button:hover {
+  background-color: rgb(13, 103, 221);
+}
+
+.homepage-content figure img {
+  width: 100%;
+  height: auto;
+}
+
+.homepage-content span {
+  color: #808080;
+}
+
+.homepage-content img:hover {
+  cursor: pointer;
+}
+
+/* CSS FOR BANNER */
+.banner {
+  height: 350px;
+  background-size: cover;
+  align-content: center;
+  padding-left: 70px;
+}
+
+.banner * {
+  display: block;
+  width: fit-content;
+}
+
+.inspiration {
+  font-size: 15px;
+  color: #808080;
+}
+
+.sale-off {
+  font-size: 30px;
+  text-align: left;
+  width: 290px;
+}
+
+.banner button {
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  padding: 8px 30px;
+}
+
+/* CSS FOR PRODUCT CATEGORIES */
+.category-title p {
+  font-size: 22px;
+}
+
+/* Hover effect for image: Flashing */
+.product-category figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* CSS FOR PRODUCT LIST */
+.product-list img:hover {
+  opacity: 0.5;
+}
+
+.product-list p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.product-list span {
+  font-size: 14px;
+}
+
+.title-product-list {
+  text-align: left;
+}
+
+.title-product-list p {
+  font-size: 22px;
+}
+
+/* CSS FOR MORE INFORMATION */
+.more-information {
+  background-color: #f4f5f9;
+}
+
+.more-information p,
+.subcribe p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.more-information span,
+.subcribe span {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.subcribe input,
+.subcribe button {
+  height: 60px;
+}
+
+.subcribe input {
+  border: 1px solid #ced4da;
+  width: 380px;
+  padding-left: 20px;
+}
+
+.subcribe input:focus {
+  outline: none;
+}
+
+/* Set text color for "Placeholder" of input */
+.subcribe input::-webkit-input-placeholder {
+  color: #ced4da;
+}
+
+.subcribe button {
+  color: #fff;
+  font-size: 18px;
+  width: 120px;
+}
+
+.be-friends {
+  text-align: left;
+}
+.be-friends p {
+  margin-bottom: 0px;
+}

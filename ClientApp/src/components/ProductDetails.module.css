@@ -1,0 +1,215 @@
+/* OK */
+/* CSS ANIMATION FOR CONTENT OF DETAIL PAGE */
+/* Fade-in animation */
+.page-content {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* CSS FOR PRODUCT DETAILS */
+/* Produtct Information */
+.detail-container {
+  margin-top: 80px;
+}
+
+.product-infor {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.product-name {
+  font-size: 30px;
+}
+
+.product-price {
+  font-size: 20px;
+}
+
+.short-desc {
+  color: #808080;
+  margin: 30px 0px;
+  font-size: 13px;
+}
+
+/* Cart control */
+.cart-control {
+  height: 35px;
+  margin-bottom: 30px;
+}
+
+.cart-control * {
+  height: 100%;
+}
+
+.category,
+.rest-quantity {
+  display: inline-block;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.rest-quantity {
+  margin-left: 100px;
+}
+
+.container-cart * {
+  align-content: center;
+}
+
+.container-cart {
+  border: 1px solid #808080;
+  padding: 0px 20px;
+}
+
+.container-cart > span {
+  padding-right: 35px;
+}
+
+.adjustment-container {
+  align-content: center;
+}
+
+.adjustment-container span {
+  margin: 0px 13px;
+  color: #000;
+}
+
+.adjustment-container input {
+  margin: 0px 13px;
+  color: #000;
+  width: 50px;
+  border: none;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.adjustment-btn:hover {
+  color: #0e1de6;
+  cursor: pointer;
+  scale: 200%;
+}
+
+/* Add to cart button */
+.cart-btn {
+  padding: 0px 20px;
+  background-color: #383838;
+  color: #fff;
+  border: none;
+}
+
+.cart-btn:hover {
+  background-color: rgb(13, 103, 221);
+}
+
+.disable {
+  padding: 0px 20px;
+  background-color: #c4b1b1;
+  color: #724a4a;
+  border: 1px solid #808080;
+  border-left: none;
+}
+
+.out-of-stock {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.out-of-stock > span {
+  color: #000;
+}
+
+/* Product description */
+.description-container {
+  text-align: left;
+  margin: 80px 0px;
+}
+
+.description-container p {
+  background-color: #383838;
+  padding: 15px 25px;
+  width: fit-content;
+  color: #fff;
+}
+
+.description-container h5 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.long-desc {
+  white-space: pre-wrap;
+  font-size: 13px;
+}
+
+/* Related product */
+.related-product-container {
+  text-align: left;
+}
+
+.related-product-container h5 {
+  margin-bottom: 25px;
+}
+
+.related-product-img * {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.related-product-img {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.related-product-img p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.no-related-product {
+  margin-bottom: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #808080;
+  text-align: left;
+}
+
+/* CSS FOR ERROR */
+.error-infor {
+  height: 60vh;
+  text-align: center;
+  padding-top: 80px;
+  color: #f00;
+  font-size: 30px;
+  font-weight: bold;
+}

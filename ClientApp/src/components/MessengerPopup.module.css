@@ -1,0 +1,151 @@
+/* OK */
+/* CSS FOR WHOLE MESSENGER POPUP */
+.messenger-container {
+  /* ====== Style for popup ====== */
+  position: fixed;
+  width: 430px;
+  height: 65%;
+  left: 63%;
+  top: 10%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.35);
+  z-index: 1;
+
+  /* ====== Animation for popup ====== */
+  animation-name: Shake;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+/* Shake animation */
+@keyframes Shake {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1) rotate(-20deg);
+  }
+
+  80% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* CSS FOR HEADER OF MESSENGER POPUP FRAME */
+.header {
+  height: 13%;
+  border-bottom: 1px solid #dfe0e0;
+  padding: 0px 20px 0px 30px;
+}
+
+.header label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.header span {
+  font-size: 10px;
+  font-style: italic;
+  padding: 4px 10px;
+  background-color: #e4e7ea;
+}
+
+.header span:hover {
+  background-color: #b3b5b8;
+  cursor: pointer;
+}
+
+/* CSS FOR BODY OF MESSENGER POPUP FRAME */
+.body {
+  width: 75%;
+  height: 74%;
+  font-size: 12px;
+  font-style: italic;
+  padding: 10px 0px 0px 10px;
+}
+
+.body p {
+  border-radius: 3px;
+  padding: 8px;
+  width: fit-content;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customer p {
+  background-color: #48b0f7;
+  color: #fff;
+}
+
+.admin {
+  width: 88%;
+}
+
+.admin div {
+  margin: 10px;
+}
+
+.admin p {
+  background-color: #f5f6f7;
+  color: #b4b2b2;
+  margin: 0px;
+}
+
+.admin img {
+  margin-right: 15px;
+}
+
+/* CSS FOR FOOTER OF MESSENGER POPUP FRAME */
+.footer {
+  height: 14%;
+  border-top: 1px solid #dfe0e0;
+  background-color: #eef2f8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 30px;
+}
+
+.message-control {
+  width: 25%;
+}
+
+.footer input {
+  border: none;
+  margin: 0px 15px;
+}
+
+.footer input:focus {
+  outline: none;
+}
+
+.paper-clip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.smile-icon {
+  color: rgb(53, 221, 11);
+}
+
+.send-icon {
+  color: #0d6efd;
+}
+
+.footer .enable:hover {
+  cursor: pointer;
+  scale: 125%;
+}
+
+.footer .disable {
+  color: #b4b2b2;
+}

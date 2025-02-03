@@ -1,0 +1,25 @@
+/* OK */
+/* CSS FOR CONTENT */
+.page-content {
+  text-align: center;
+}
+
+/* CSS FOR FOOTER */
+.footer {
+  background-color: #000;
+}
+
+/* CSS FOR MESSENGER BUTTON AND CHAT POPUP */
+.messenger-btn {
+  position: fixed;
+  top: 80%;
+  right: 3%;
+  font-size: 30px;
+  color: #fff;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
+
+.messenger-btn:hover {
+  scale: 130%;
+}

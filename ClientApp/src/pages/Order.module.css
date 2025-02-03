@@ -1,0 +1,120 @@
+/* CSS FOR BANNER */
+.banner {
+  background-color: #ebf1f3;
+  height: 200px;
+  padding: 0px 80px;
+}
+
+.banner h5 {
+  color: #9f9f9f;
+}
+
+.page-title {
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.order-list-container {
+  margin-bottom: 80px;
+}
+
+.header {
+  font-size: 13px;
+  font-weight: bold;
+  /* border: 1px solid #ddd; */
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ebf1f3;
+}
+
+.content {
+  /* border-top: 1px solid #ddd; */
+  font-size: 12px;
+  width: inherit;
+  color: #5a6b70;
+}
+
+.content:hover {
+  background-color: #0cbfd6;
+  color: #fff;
+}
+
+.header div,
+.content div {
+  align-content: center;
+  font-style: italic;
+  min-height: 60px;
+}
+
+.orderID {
+  width: 18%;
+}
+
+.userID {
+  width: 18%;
+}
+
+.name {
+  width: 8%;
+}
+
+.phone {
+  width: 8%;
+}
+
+.address {
+  width: 9%;
+}
+
+.total {
+  width: 13%;
+}
+
+.delivery {
+  width: 10%;
+}
+
+.status {
+  width: 8%;
+}
+
+.detail {
+  width: 8%;
+}
+
+.detail-btn {
+  padding: 5px 10px;
+  background-color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  color: #5a6b70;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.detail-btn:hover {
+  background-color: rgb(51, 177, 19);
+  color: #fff;
+  border: none;
+  scale: 110%;
+}
+
+.text-infor {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 150px;
+}
+
+.begin-loading {
+  color: #00f;
+}
+
+.no-order {
+  color: #f00;
+}

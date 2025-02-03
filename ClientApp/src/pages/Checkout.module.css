@@ -1,0 +1,150 @@
+/* OK */
+/* CSS FOR BANNER */
+.banner {
+  background-color: #ebf1f3;
+  height: 300px;
+  padding: 0px 80px;
+}
+
+.sub-nav span {
+  margin: 0px 10px;
+}
+
+.sub-nav a {
+  color: #000;
+  font-weight: bold;
+}
+
+.banner a:hover {
+  color: blue;
+}
+
+.active {
+  color: #808080 !important;
+}
+
+/* CSS FOR CONTENT */
+/* User information */
+.container-content {
+  margin-bottom: 50px;
+}
+
+.content h4 {
+  margin: 60px 0px 40px 0px;
+}
+
+.user-infor {
+  width: 62%;
+  text-align: left;
+}
+
+.user-infor input {
+  padding-left: 20px;
+  height: 38px;
+  border: 1px solid #a07575;
+  margin: 10px 0px 20px 0px;
+}
+
+/* Set text color for "Placeholder" of input */
+.user-infor input::-webkit-input-placeholder {
+  font-size: 13px;
+}
+
+.user-infor label {
+  margin-top: 10px;
+}
+
+.place-order-btn,
+.disable-mode {
+  width: 150px;
+  padding: 10px 20px;
+  border: none;
+  font-style: italic;
+  align-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+
+.place-order-btn:hover {
+  background-color: rgb(13, 103, 221);
+}
+
+.enable-mode {
+  background-color: #383838;
+  color: #fff;
+}
+
+.disable-mode {
+  background-color: #eecfcf;
+  color: #856d6d;
+}
+
+.disable-mode:hover {
+  cursor: not-allowed;
+}
+
+/* Bill information */
+.bill-infor {
+  width: 35%;
+  background-color: #ebf1f3;
+  height: fit-content;
+  padding: 50px 30px;
+}
+
+.bill-infor p {
+  text-align: left;
+  font-weight: bold;
+}
+
+.item-list {
+  padding: 10px 0px;
+  border-bottom: 1px solid #a07575;
+}
+
+.item-list * {
+  align-content: center;
+}
+
+.product-name {
+  text-align: left;
+  text-align: justify;
+  font-size: 13px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 10px;
+  width: 40%;
+  text-align: right;
+}
+
+.total-result {
+  margin-top: 10px;
+}
+
+.total-result label {
+  font-weight: bold;
+}
+
+.total-result span {
+  font-size: 18px;
+  color: #504646;
+}
+
+.order-success,
+.no-cart {
+  margin-bottom: 100px;
+  align-content: center;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order-success {
+  color: #00f;
+}
+
+.no-cart {
+  color: #f00;
+}

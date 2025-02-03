@@ -1,0 +1,20 @@
+/* OK */
+/* CSS FOR NAVBAR */
+.navbar {
+  height: 10vh;
+  margin: auto;
+}
+
+/* CSS FOR CONTENT */
+.content {
+  text-align: center;
+  background-color: #141212d0;
+  height: 90vh;
+  padding-top: 100px;
+  color: #fff;
+}
+
+/* CSS FOR TITLE */
+.content h3 {
+  color: #5db912;
+}

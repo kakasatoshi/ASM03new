@@ -1,0 +1,6 @@
+/* OK */
+.login-container {
+  background-image: url("../../public/pictures/banner1.jpg");
+  height: 100vh;
+  background-size: contain;
+}

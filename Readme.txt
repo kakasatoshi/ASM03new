@@ -1,0 +1,3 @@
+- SERVER-URL: https://assignment03-nodejs-server.onrender.com
+- CLIENT-URL: https://deploy-reactapp-assignment03.web.app
+- ADMIN-URL: https://deploy-asm-reacjs.web.app

@@ -1,0 +1,38 @@
+/* OK */
+/* CSS FOR LINK */
+.footer-container {
+  padding-left: 13%;
+}
+
+.footer-container span {
+  color: #fff;
+}
+
+.footer-container div {
+  padding-left: 0px;
+  margin-right: 50px;
+}
+
+.footer-container a {
+  color: #808080;
+}
+
+.footer-container a:hover {
+  color: #fff;
+}
+
+/* CSS FOR LIST <UL> */
+.footer-container ul {
+  padding-left: 0;
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+.footer-container li {
+  padding-top: 6px;
+}
+
+/* CSS FOR TITLE OF LINK COLUMNS */
+.footer-container span {
+  font-size: 16px;
+}

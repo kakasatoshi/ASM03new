@@ -1,0 +1,86 @@
+/* OK */
+/* CSS FOR BANNER */
+.banner {
+  background-color: #ebf1f3;
+  height: 300px;
+  padding: 0px 80px;
+}
+
+.banner h5 {
+  color: #9f9f9f;
+}
+
+/* CSS FOR CATEGORIES */
+.categories {
+  text-align: left;
+}
+
+.categories > p:first-child {
+  font-weight: bold;
+  margin: 20px 20px 20px 0px;
+  font-size: 20px;
+}
+
+.categories span {
+  padding-left: 20px;
+}
+
+.categories div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.apple {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+}
+
+.title {
+  background-color: #d1d6d1;
+  padding: 8px 8px 8px 20px;
+  font-weight: bold;
+  margin: 12px 0px;
+}
+
+.categories span:hover {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* CSS FOR PRODUCT LIST */
+/* Searching and Sorting controls */
+.control-frame {
+  text-align: left;
+  padding-top: 12px;
+  margin-bottom: 15px;
+}
+
+.control-frame input {
+  height: 40px;
+  width: 280px;
+  padding-left: 20px;
+}
+
+.dropdown-list {
+  width: 180px;
+  height: 25px;
+}
+
+/* Product list */
+.product-list img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.product-lists p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.product-list span {
+  font-size: 14px;
+}

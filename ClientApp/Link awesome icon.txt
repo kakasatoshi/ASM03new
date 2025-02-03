@@ -1,0 +1,14 @@
+
+1 - Add link to project: 	
+	// Paste đường link bên dưới vào giữa thẻ <head>...</head> của file "index.html" trong folder "public" của Reac project
+        <!-- Icon Awesome -->
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+
+2 - Visite this page to find icon:
+	// Mở link bên dưới để tìm các icon muốn sử dụng:
+	// Link to get icon awesome :
+	https://fontawesome.com/v4/icons/

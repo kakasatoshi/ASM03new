@@ -1,0 +1,78 @@
+/* OK */
+/* CSS FOR SIGN IN FORM */
+.signin-container {
+  position: fixed;
+  width: 30%;
+  height: 75%;
+  left: 31%;
+  top: 15%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.signin-container p {
+  text-align: center;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #808080;
+}
+
+/* Title */
+.signin-title {
+  margin: 46px 0px 26px 0px;
+  font-size: 25px;
+}
+
+/* Error validate Information */
+.error-infor {
+  text-align: left;
+  color: #f00;
+  font-style: italic;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 13px;
+  height: 35px;
+}
+
+/* Input */
+.signin-container input {
+  border: none;
+  border: 1px solid #e6e6e6;
+  height: 60px;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
+}
+
+/* Button */
+.signin-btn {
+  margin: 20px 0px;
+  height: 55px;
+  background-color: #383838;
+  color: #fff;
+  border: none;
+}
+
+.signin-btn:hover {
+  background-color: rgb(13, 103, 221);
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+}
+
+/* CSS FOR LOGIN LINK */
+.create-account {
+  font-size: 15px;
+  margin: 20px 0px;
+}
+
+.create-account a:hover {
+  color: #f00;
+  font-weight: bold;
+}

@@ -1,0 +1,188 @@
+/* OK */
+/* CSS FOR LIST CART */
+.container-list thead {
+  background-color: #ebf1f3;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.container-list tbody tr {
+  height: 150px;
+}
+
+.container-list td {
+  width: 15%;
+  margin: 30px;
+  padding: 20px 10px;
+  font-size: 13px;
+}
+
+.container-list td:nth-child(2) {
+  width: 25%;
+}
+
+.container-list img {
+  width: 100%;
+}
+
+.container-list img:hover {
+  scale: 150%;
+}
+
+.container-list p {
+  margin: 0px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price,
+.total {
+  color: #808080;
+}
+
+.adjustment-container {
+  align-content: center;
+}
+
+.adjustment-container span {
+  margin: 0px 13px;
+  color: #000;
+}
+
+.quantity input {
+  margin: 0px 5px;
+  color: #000;
+  width: 40px;
+  border: none;
+  text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.adjustment-btn:hover {
+  color: #0e1de6;
+  cursor: pointer;
+  scale: 200%;
+}
+
+.remove i:hover {
+  scale: 150%;
+}
+
+.list-cart {
+  width: 66%;
+  vertical-align: middle;
+}
+
+/* Footer of list cart */
+.footer-list {
+  background-color: #ebf1f3;
+  margin: 20px 0px;
+}
+
+.footer-list a {
+  margin: 0px 10px;
+  color: #000;
+}
+
+.footer-list div {
+  padding: 6px 15px;
+  height: 40px;
+}
+
+.footer-list div:hover {
+  border: 1px solid #000;
+}
+
+/* CSS FOR CART TOTAL */
+.cart-total {
+  width: 31%;
+  background-color: #ebf1f3;
+  height: 350px;
+  padding: 30px 40px;
+}
+
+.cart-total div:nth-child(2) {
+  border-bottom: 1px solid #a07575;
+}
+
+.cart-total p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  margin: 25px 0px;
+}
+
+.cart-total div {
+  padding: 10px 0px;
+}
+
+.title {
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+}
+
+.total-control * {
+  width: 100%;
+  height: 40px;
+}
+
+.cart-total input {
+  padding-left: 20px;
+  border: 1px solid #a07575;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.cart-total button {
+  border: none;
+  background-color: #383838;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart-total button:hover {
+  background-color: rgb(13, 103, 221);
+}
+
+.total-control i {
+  display: inline;
+  margin: auto;
+  padding: 0px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.cart-total span {
+  align-content: center;
+}
+
+.subtotal-value,
+.total-value {
+  padding-top: 2px;
+}
+
+.subtotal-value {
+  font-size: 12px;
+  padding-right: 0px;
+}
+
+.total-value {
+  font-size: 15px;
+  padding-right: 0px;
+}

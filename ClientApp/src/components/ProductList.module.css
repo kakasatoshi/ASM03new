@@ -1,0 +1,57 @@
+/* OK */
+/* CSS FOR PAGING */
+.paging-container {
+  text-align: end;
+  margin: 20px 0px;
+}
+
+.paging-control {
+  padding: 10px 0px;
+}
+
+.paging-control * {
+  font-weight: bold;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+}
+
+.paging-control button {
+  padding: 5px;
+}
+
+.paging-control button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.paging-control span {
+  padding: 0px 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* CSS FOR IMAGE ANIMATION */
+/* Fade-in animation */
+.category-list figure {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.category-list img {
+  margin-bottom: 15px;
+}
